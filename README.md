@@ -1,4 +1,4 @@
 © COPYRIGHT GEORGE EDMONDS 2018
 
-# newspublication
+# Publication Generator
 An automatically generated news publication, with a URL input.
