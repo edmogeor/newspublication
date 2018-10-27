@@ -36,7 +36,7 @@ $(document).ready(function() {
   $( "#download" ).click(function() {
     var url = $('#urlinput').val();
     if (isURL(url) == true) {
-      $.getJSON("http://newsapi.edmonds.design/extract/" +'?url='+ url, function(result) {
+      $.getJSON("https://newsapi.edmonds.design/extract/" +'?url='+ url, function(result) {
             setScale();
             console.log(result);
             $("#headline").text(result.headline);
